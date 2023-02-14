@@ -1,0 +1,51 @@
+body{
+    padding: none;
+    border: none;
+    background-color: hsl(212, 45%, 89%);
+}
+
+img {
+    width: 292px;
+  
+  height: 288px;
+  object-fit: inherit;
+  object-position: 50% 50%;
+  margin: auto;
+  display: block;
+   border-radius: 20px;
+   align-items: center;
+   
+  }
+  #container {
+    width: 326px;
+  height: 492px;
+    /* Center the container in middle on horizontal axis */
+    margin: 0 20px auto;
+  align-items: center;
+    /* Add empty space above the container (20% of the view height) */
+    border-radius: 30px;
+    margin-top: 100vh;
+  }
+  .card {
+    /* Change background color */
+    background-color: white;
+    
+  border-radius: 20px;
+    /* Add space between the border and the content */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 316px;
+    max-height: 502px;
+    padding: 10px 5px 5px;
+  }
+  p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+font-family: 'Outfit', sans-serif;
+text-align: center;
+  }
+  h2{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
